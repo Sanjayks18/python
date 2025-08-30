@@ -5,7 +5,7 @@ for i in range(n):
     arr.append(int(input(f"enter {i+1} th element: ")))
 
 d=int(input("enter D(number of elements to be rotat):"))
-
+d=d%n
 print(arr)
 n=len(arr)
 
@@ -17,5 +17,6 @@ for i in range(d,n):
 for i in range(n-d,n):
     arr[i]=temp[i-(n-d)]
 
-print("compleated",arr)
+print("rotated array ",arr)
+
     
