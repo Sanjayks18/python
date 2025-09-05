@@ -16,8 +16,7 @@ def f2():
       while n>0:
             count+=1
             n=n//10
-      print(count)
-#f2()
+      print(count)f2()
 
 def f3():
       n=int(input("enter the digit: "))
